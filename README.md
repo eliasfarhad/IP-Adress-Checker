@@ -1,2 +1,2 @@
 # IP-Adress-Checker
-Check if an IP address id falls within an IP address block
+Check if an internet IP address falls within an IP address block
