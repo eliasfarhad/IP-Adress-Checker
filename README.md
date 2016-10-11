@@ -1,7 +1,7 @@
 # IP-Adress-Checker
 Check if an internet IP address falls within an IP address block
 
-Overview
+# Overview
 
 This program performs computations on IP blocks. As you may already know, Internet Protocol version 4 (IPv4, or often just IP) is the main network protocol used on the Internet.
 
@@ -14,7 +14,7 @@ For example, "172.217.0.46/24" is the block consisting of all addresses that sha
 The number of addresses in the block is determined by the size of the prefix. For example, "172.217.0.46/24" contains 256 addresses.
 
 
-Part 1 - block membership
+# Part 1 - block membership
 
 Start by writing a console (shell or terminal) program that takes two arguments on its command line: an IP block and and IP address. The program should parse the block and address in the formats described above. It should then print a message indicating whether or not the address is in the block.
 
@@ -32,13 +32,9 @@ the program responds,
 not in block
 Part 2 - cleanup
 
-Create a new GitHub repository and commit your program to it. You will submit this repo at the end of the assignment.
-
 Once you are satisfied that your code works for basic cases, add some tests to confirm this. Which test cases are you most concerned about?
 
-Tidy up your code, add comments for clarity, and add validation if you didn't previously. Your code should be as if you are submitting it, for production use, in a normal engineering job.
 
-
-Conclusion
+# Conclusion
 
 If you are curious about what IP blocks are used for, see the Wikipedia page on CIDR.
