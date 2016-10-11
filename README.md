@@ -14,7 +14,7 @@ For example, "172.217.0.46/24" is the block consisting of all addresses that sha
 The number of addresses in the block is determined by the size of the prefix. For example, "172.217.0.46/24" contains 256 addresses.
 
 
-# Part 1 - block membership
+# block membership
 
 Start by writing a console (shell or terminal) program that takes two arguments on its command line: an IP block and and IP address. The program should parse the block and address in the formats described above. It should then print a message indicating whether or not the address is in the block.
 
@@ -30,7 +30,6 @@ $ ipblock 12.23.34.45/16 12.22.35.44
 the program responds,
 
 not in block
-Part 2 - cleanup
 
 Once you are satisfied that your code works for basic cases, add some tests to confirm this. Which test cases are you most concerned about?
 
